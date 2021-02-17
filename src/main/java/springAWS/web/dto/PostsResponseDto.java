@@ -1,7 +1,9 @@
 package springAWS.web.dto;
 
+import lombok.Getter;
 import springAWS.domain.posts.Posts;
 
+@Getter
 public class PostsResponseDto {
 
     private Long id;
