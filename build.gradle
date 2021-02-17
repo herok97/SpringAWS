@@ -27,6 +27,9 @@ dependencies {
 
     /** h2 데이터베이스 **/
     implementation 'com.h2database:h2'
+
+    /** 머스테치(템플릿 엔진)**/
+    implementation 'org.springframework.boot:spring-boot-starter-mustache'
 }
 
 test {
